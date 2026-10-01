@@ -1,0 +1,14 @@
+{
+  "db": { "rules": [{ "path": "", "read": "owner", "write": "owner" }] },
+  "user": {},
+  "sample": {},
+  "downloads": true,
+  "mcp": {
+    "servers": [
+      { "server": "Gmail", "tools": ["search_threads", "get_thread"] },
+      { "server": "MyInvestor", "tools": ["get_funds", "search_funds"] },
+      { "server": "Google Drive", "tools": ["create_file"] },
+      { "server": "host:claude_browser", "tools": ["preview_start", "navigate", "get_page_text", "find", "read_page", "computer"] }
+    ]
+  }
+}
